@@ -1,20 +1,7 @@
-# README #
-Credits:
-[[GUIDE] How to Create Custom Splash Screen (Boot Logo) for Redmi 2 & Redmi 3 By GokulNC](https://forum.xda-developers.com/redmi-2/how-to/guide-how-to-create-custom-splash-t3410825)
+Splash maker 
 
-## Splash Screen Maker for Devices of resloution 720x1280
-```
-make sure images you use are of resolution 720x1280
+ENG
+Splash maker for redmi 3s or some other models with 720x1280 screen, just put the image in the images folder and run create_splash.bat and get splash.img in the OUTPUT folder and flash via fastboot "fastboot flash splash splash.img" or from recovery. (photo must be 720x1280 with PNG format)
 
-1.copy your custom images into images folder
-
-2.rename them as logo.* and fastboot.*
-(* is extension of images => png, jpg, jpeg, bmp, gif)
-
-now there exsists 2 pics in 'images/' folder
-logo.* and fastboot.*
-
-3.run the script
-
-4. output is in 'OUTPUT/' folder
-```
+IND
+Splash maker untuk redmi 3s atau beberapa model lainya dengan layar 720x1280, cukup taruh gambar di dalam folder images dan run create_splash.bat dan ambil splash.img di folder OUTPUT dan flash lewat fastboot "fastboot flash splash splash.img" atau dari recovery. (foto wajib 720x1280 dengan format PNG)
